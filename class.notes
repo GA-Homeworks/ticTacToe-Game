@@ -1,0 +1,14 @@
+-= User Stories =-
+- as a player, I want to see whos turn it is.
+- as a player, I want to be able to see the 'x' or 'o' before I place it.
+- as a player, I want a button  to restart the game.
+- as a player, I want to a winner popup screen.
+- as a player, I want a popup for whos turn it is 
+- as a player, I want to be able to play with a computer OR against another player 
+- as a player, I want there to be a random who goes first 
+- as a player, I'd like for there to be instructions 
+- as a admin, I'd like for the 'x' to always be first player 
+- as an admin, I'd like for there to be a clear win or a tie 
+
+--------------------------------------------
+ADD IMG TO HTML USING JS 

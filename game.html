@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Tic Tac Toe</title>
+  </head>
+  <body>
+    <!-- BUTTON FOR THE INFORMATION -->
+    <button id="open">Info</button>
+    <div id="modal">
+      <div id="textbox">
+        <a id="close" href="#">Close</a>
+        <h1>Learn to Play Tic Tac Toe</h1>
+        <p>1. The game is played on a grid that's 3 squares by 3 squares.</p>
+        <p>
+          2. You are X, your friend (or the computer in this case) is O. Players
+          take turns putting their marks in empty squares.
+        </p>
+        <p>
+          3. The first player to get 3 of her marks in a row (up, down, across,
+          or diagonally) is the winner.
+        </p>
+        <p>
+          4. When all 9 squares are full, the game is over. If no player has 3
+          marks in a row, the game ends in a tie.
+        </p>
+      </div>
+    </div>
+    <!-- BEGINNING OF THE GAME -->
+    <h1>Pick Your Poison</h1>
+    <p class="player"><span id="next">X</span>'s Turn!</p>
+    <div class="squares">
+      <div class="div" id="1">
+        <div id="choice" data-value="1">PICK ME</div>
+        <img id="hoverPhoto" src="" alt="" />
+      </div>
+      <div class="div" id="2">
+        <div id="choice"" data-value="2">PICK ME</div>
+        <img id="hoverPhoto" src="" alt="" />
+      </div>
+      <div class="div" id="3">
+        <div id="choice"" data-value="3">PICK ME</div>
+        <img id="hoverPhoto" src="" alt="" />
+      </div>
+      <div class="div" id="4">
+        <div id="choice"" data-value="4">PICK ME</div>
+        <img id="hoverPhoto" src="" alt="" />
+      </div>
+      <div class="div" id="5">
+        <div id="choice" data-value="5"">PICK ME</div>
+        <img id="hoverPhoto" src="" alt="" />
+      </div>
+      <div class="div" id="6">
+        <div id="choice"" data-value="6">PICK ME</div>
+        <img id="hoverPhoto" src="" alt="" />
+      </div>
+      <div class="div" id="7">
+        <div id="choice"" data-value="7">PICK ME</div>
+        <img id="hoverPhoto" src="" alt="" />
+      </div>
+      <div class="div" id="8">
+        <div id="choice"" data-value="8">PICK ME</div>
+        <img id="hoverPhoto" src="" alt="" />
+      </div>
+      <div class="div" id="9">
+        <div id="choice"" data-value="9">PICK ME</div>
+        <img id="hoverPhoto" src="" alt="" />
+      </div>
+      <div class="win-text-container">
+        <h2 id="win-statement"></h2>
+      </div>
+      <button id="reset" class='reset'>Reset</button>
+    </div>
+    <!-- <button id="reset">Play Again</button> -->
+  </body>
+  <script src="app.js"></script>
+</html>
